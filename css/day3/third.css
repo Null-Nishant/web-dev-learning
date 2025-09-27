@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(253, 206, 1);
+  position: relative;
+}
+
+.left-flag {
+  background-color: rgb(0, 83, 148);
+  width: 30%;
+  height: 40%;
+  position: absolute;
+}
+.left-top {
+  top: 0;
+  left: 0;
+}
+.left-bottom {
+  bottom: 0;
+  left: 0;
+}
+.right-flag {
+  background-color: rgb(0, 83, 148);
+  width: 60%;
+  height: 40%;
+  position: absolute;
+}
+.right-top {
+  top: 0;
+  right: 0;
+}
+.right-bottom {
+  bottom: 0;
+  right: 0;
+}
