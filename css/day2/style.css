@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box; /*Calculate the height and width from the border means it consider padding +border thickness and content height all*/
+  /* box-sizing: cotent-box; by default it applied, consider only content and apply height to the content */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  display: inline; /* it is display property and it has pros like we can apply height ,width, margin, padding int all direction but it cons is that it occupy all the width in its line */
+}
+p {
+  display: inline-block; /* it is hybrid of inline and block it has both pros of block and inline*/
+}
+h2 {
+  display: block; /* it is display property and it has pros like the next element will come next to it if space is available but it that we cannot apply height and width(width is determined by content length) we can only apply margin and padding inline  */
+}
