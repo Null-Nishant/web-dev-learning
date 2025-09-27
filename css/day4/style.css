@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: rgb(131, 40, 235);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(103, 8, 193);
+}
+
+.card {
+  background-color: #f5f7f7;
+  border-radius: 10px;
+  padding: 3rem;
+}
+
+label{
+font-size: 30px;
+}
+
+input{
+    margin: 1rem;
+    border-radius: 1rem;
+    font-size: 30px;
+    text-align: center;
+}
+button{
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 30px;
+    border-radius: 10px;
+    color:white;
+    background-color: rgb(154, 96, 208);
+}
