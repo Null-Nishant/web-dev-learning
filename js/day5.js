@@ -24,4 +24,4 @@ for (let i of multiArray) {
 
 const num1 = [1, 2, 3, 4, 2, 3];
 const num2 = [123, 123, "Nishant", 443, 5, 6, 456, 46];
-console.log([...num1, num2]);   //spread operator
+console.log([...num1, num2]); //spread operator
