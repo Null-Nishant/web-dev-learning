@@ -30,13 +30,13 @@ function OTP(length) {
 let lengthOfOtp = 4;
 console.log(OTP(lengthOfOtp));
 
-//for fixed lenght
+//for fixed length
 function GenOTP() {
   return Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000;
 }
 console.log(GenOTP())
 
-//code to genearate random number
+//code to generate random number
 function random() {
   return (Date.now() % 10)/10;
 }

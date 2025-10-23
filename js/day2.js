@@ -37,12 +37,12 @@ console.log(null==0);
 // console.log(null>=undefined);
 // console.log(undefined>=0);
 
-// console.log("Rohit">"Rahit");
+// console.log("Rohit">"Rohit");
 
 // console.log(10<true);
 
 // Ek koi bhi type hai, usko agar muje compare karna hai dusre kisi type se
-// Dono number mein convert honge
+// Doano number mein convert honge
 
 // console.log(null>="");
 
@@ -53,7 +53,7 @@ console.log(null==0);
 // for loop
 
 // post increment
-// post decrenment : i--
+// post decrement : i--
 
 // for(let i = 0; i<10;i++){
 //     console.log(i);

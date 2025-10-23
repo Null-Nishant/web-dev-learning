@@ -1,4 +1,4 @@
-//Object in javascrit
+//Object in javascript
 
 //under the hood array is stores as object (index is key)
 
@@ -14,7 +14,7 @@ const user = {
 };
 console.log(user); //read object
 
-//updateing data inside the object or adding new value
+//update data inside the object or adding new value
 
 user.happy = true;
 console.log(user);
@@ -61,7 +61,7 @@ const person = {
 
 console.log(person.address.city);
 
-const person1 = person; //only refernce copy
+const person1 = person; //only reference copy
 const person2 = { ...person }; //shallow copy
 const person3 = structuredClone(person);
 
